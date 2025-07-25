@@ -1,0 +1,703 @@
+
+
+*******************************************************************************
+Wed Nov  6 12:50:48 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.4780000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 4.2116329777e-06  -1.38e-05  2.82e-04    1.248916e-03   1.037952e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.21163e-06
+rel. change during last iteration : -1.38238e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00118485
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40388e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.00124892       +/- 0.0009164    (73.38%)
+q11_Sn          = 0.0103795        +/- 0.000237     (2.283%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:50:48 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 2.3228244586e-04   0.00e+00  0.00e+00    1.000000e-30   1.000000e-30
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov  6 12:52:17 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.4780000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 4.2116329777e-06  -1.38e-05  2.82e-04    1.248916e-03   1.037952e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.21163e-06
+rel. change during last iteration : -1.38238e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00118485
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40388e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.00124892       +/- 0.0009164    (73.38%)
+q11_Sn          = 0.0103795        +/- 0.000237     (2.283%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:52:17 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 2.3228244586e-04   0.00e+00  0.00e+00    1.000000e-30   1.000000e-30
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov  6 12:52:58 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.4780000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 4.2116329777e-06  -1.38e-05  2.82e-04    1.248916e-03   1.037952e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.21163e-06
+rel. change during last iteration : -1.38238e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00118485
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40388e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.00124892       +/- 0.0009164    (73.38%)
+q11_Sn          = 0.0103795        +/- 0.000237     (2.283%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:52:58 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 2.3228244586e-04   0.00e+00  0.00e+00    1.000000e-30   1.000000e-30
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Nov  6 12:56:08 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.4780000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 4.2116329777e-06  -1.38e-05  2.82e-04    1.248916e-03   1.037952e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.21163e-06
+rel. change during last iteration : -1.38238e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00118485
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40388e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.00124892       +/- 0.0009164    (73.38%)
+q11_Sn          = 0.0103795        +/- 0.000237     (2.283%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:56:08 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.5710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 2.5270484619e-06  -8.25e-04  3.43e-04    4.183653e-03   8.491516e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.52705e-06
+rel. change during last iteration : -8.24888e-09
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000917796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.42349e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.00418365       +/- 0.0007082    (16.93%)
+q11_Ge          = 0.00849152       +/- 0.0001493    (1.759%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:58:52 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07514e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 12:58:52 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47439e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:03:16 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07514e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:03:16 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47439e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:05:28 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07514e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:05:28 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47439e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:40:15 2024
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07514e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Nov  6 13:40:15 2024
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47439e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Mon Mar 17 19:01:48 2025
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07528e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Mon Mar 17 19:01:48 2025
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47436e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 
+
+
+*******************************************************************************
+Wed Mar 19 22:53:17 2025
+
+
+FIT:    data read from 'data_Sn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Sn(x)
+	Mx_model_Sn(x) = n_Sn + q11_Sn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Sn' is zero.
+Warning: Initial value of parameter 'q11_Sn' is zero.
+iter      chisq       delta/lim  lambda   n_Sn          q11_Sn       
+   0 8.5270000000e-03   0.00e+00  2.82e+00    1.000000e-30   1.000000e-30
+   4 2.1897716397e-05  -9.08e-06  2.82e-04    4.518450e-04   1.056875e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.18977e-05
+rel. change during last iteration : -9.07528e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00270171
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.29924e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Sn            = 0.000451845      +/- 0.00209      (462.5%)
+q11_Sn          = 0.0105687        +/- 0.0005403    (5.112%)
+
+correlation matrix of the fit parameters:
+                n_Sn   q11_Sn 
+n_Sn            1.000 
+q11_Sn         -0.816  1.000 
+
+
+*******************************************************************************
+Wed Mar 19 22:53:17 2025
+
+
+FIT:    data read from 'data_Ge' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ge(x)
+	Mx_model_Ge(x) = n_Ge + q11_Ge * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n_Ge' is zero.
+Warning: Initial value of parameter 'q11_Ge' is zero.
+iter      chisq       delta/lim  lambda   n_Ge          q11_Ge       
+   0 9.4710000000e-03   0.00e+00  3.43e+00    1.000000e-30   1.000000e-30
+   4 1.6771422182e-05  -7.47e-05  3.43e-04    3.585701e-03   8.542738e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.67714e-05
+rel. change during last iteration : -7.47436e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00236442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59047e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n_Ge            = 0.0035857        +/- 0.001824     (50.88%)
+q11_Ge          = 0.00854274       +/- 0.0003847    (4.504%)
+
+correlation matrix of the fit parameters:
+                n_Ge   q11_Ge 
+n_Ge            1.000 
+q11_Ge         -0.815  1.000 

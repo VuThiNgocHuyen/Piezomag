@@ -1,0 +1,1706 @@
+
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 6:($1*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 6:($3*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 6:($1*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 6:($3*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 6:($1*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 6:($3*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 6:($1*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:30:57 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 6:($3*-1)
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 1.8000000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   5 6.3345017457e-06  -2.33e-08  1.18e-04    2.967223e-03  -1.934349e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.3345e-06
+rel. change during last iteration : -2.32535e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0014531
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1115e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = 0.00296722       +/- 0.001136     (38.28%)
+q15_Ni          = -0.000193435     +/- 6.844e-05    (35.38%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ni(x)
+	Mz_model_Ni(x) = n14_Ni + q14_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ni' is zero.
+Warning: Initial value of parameter 'q14_Ni' is zero.
+iter      chisq       delta/lim  lambda   n14_Ni        q14_Ni       
+   0 2.6900000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 3.6655375685e-05  -7.98e-01  1.18e-03    3.496862e-03   5.655022e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.66554e-05
+rel. change during last iteration : -7.98343e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00349549
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.22185e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ni          = 0.00349686       +/- 0.002732     (78.14%)
+q14_Ni          = 0.000565502      +/- 0.0001646    (29.11%)
+
+correlation matrix of the fit parameters:
+                n14_Ni q14_Ni 
+n14_Ni          1.000 
+q14_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.7400000000e-04   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 3.7707534462e-05  -6.09e-09  1.02e-04    8.210044e-03   1.203818e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.77075e-05
+rel. change during last iteration : -6.09203e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0035453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25692e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00821004       +/- 0.002724     (33.18%)
+q15_Cu          = 0.000120382      +/- 0.0001891    (157.1%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Cu(x)
+	Mz_model_Cu(x) = n14_Cu + q14_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Cu' is zero.
+Warning: Initial value of parameter 'q14_Cu' is zero.
+iter      chisq       delta/lim  lambda   n14_Cu        q14_Cu       
+   0 1.4010000000e-03   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 5.2893339558e-06  -1.40e-08  1.02e-04    4.719333e-03  -8.777065e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.28933e-06
+rel. change during last iteration : -1.40122e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00132782
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.76311e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Cu          = 0.00471933       +/- 0.00102      (21.62%)
+q14_Cu          = -0.000877706     +/- 7.083e-05    (8.07%)
+
+correlation matrix of the fit parameters:
+                n14_Cu q14_Cu 
+n14_Cu          1.000 
+q14_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.2490000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 4.0269186280e-07  -2.45e-05  1.28e-04    1.620131e-02   2.719159e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.02692e-07
+rel. change during last iteration : -2.44515e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000366375
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.34231e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Zn          = 0.0162013        +/- 0.0002851    (1.759%)
+q15_Zn          = 2.71916e-05      +/- 1.581e-05    (58.12%)
+
+correlation matrix of the fit parameters:
+                n15_Zn q15_Zn 
+n15_Zn          1.000 
+q15_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Zn(x)
+	Mz_model_Zn(x) = n14_Zn + q14_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Zn' is zero.
+Warning: Initial value of parameter 'q14_Zn' is zero.
+iter      chisq       delta/lim  lambda   n14_Zn        q14_Zn       
+   0 1.3460000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 3.0423615822e-07  -3.08e-05  1.28e-04    1.579742e-02  -4.082890e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.04236e-07
+rel. change during last iteration : -3.07593e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000318453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.01412e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Zn          = 0.0157974        +/- 0.0002478    (1.568%)
+q14_Zn          = -4.08289e-05     +/- 1.374e-05    (33.65%)
+
+correlation matrix of the fit parameters:
+                n14_Zn q14_Zn 
+n14_Zn          1.000 
+q14_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 2.1300000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 5.4195253769e-06  -3.98e-07  1.10e-04    1.614981e-02  -3.349603e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.41953e-06
+rel. change during last iteration : -3.97937e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00134406
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80651e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ga          = 0.0161498        +/- 0.001052     (6.514%)
+q15_Ga          = -0.00033496      +/- 6.804e-05    (20.31%)
+
+correlation matrix of the fit parameters:
+                n15_Ga q15_Ga 
+n15_Ga          1.000 
+q15_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:33:41 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ga(x)
+	Mz_model_Ga(x) = n14_Ga + q14_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ga' is zero.
+Warning: Initial value of parameter 'q14_Ga' is zero.
+iter      chisq       delta/lim  lambda   n14_Ga        q14_Ga       
+   0 2.2590000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 1.3345131104e-06  -1.65e-06  1.10e-04    1.633844e-02  -3.673806e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.33451e-06
+rel. change during last iteration : -1.65362e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000666962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.44838e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ga          = 0.0163384        +/- 0.000522     (3.195%)
+q14_Ga          = -0.000367381     +/- 3.376e-05    (9.19%)
+
+correlation matrix of the fit parameters:
+                n14_Ga q14_Ga 
+n14_Ga          1.000 
+q14_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:38:38 2024
+
+
+FIT:    data read from 'data_Ni' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 2.1800000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 1.3053733780e-05  -2.80e-01  1.18e-03   -1.231477e-03  -4.436203e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.30537e-05
+rel. change during last iteration : -2.80047e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00208596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.35124e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = -0.00123148      +/- 0.001623     (131.8%)
+q15_Ni          = -0.00044362      +/- 9.768e-05    (22.02%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:38:38 2024
+
+
+FIT:    data read from 'data_Cu' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.6925000000e-04   0.00e+00  1.03e+01    1.000000e-30   1.000000e-30
+   4 1.2754893980e-05  -3.10e-01  1.03e-03    1.982821e-03   5.975679e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.27549e-05
+rel. change during last iteration : -3.09718e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00206195
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.25163e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00198282       +/- 0.001593     (80.33%)
+q15_Cu          = 0.000597568      +/- 0.0001096    (18.34%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.815  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 04:38:38 2024
+
+
+FIT:    data read from 'data_Zn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.4845706634e-57   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+1148 2.5942220965e-60  -2.00e-01  1.28e+01    9.315612e-31   6.895989e-32
+
+After 1148 iterations the fit converged.
+final sum of squares of residuals : 2.59422e-60
+abs. change during last iteration : -5.19072e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Zn          = 9.31561e-31    
+q15_Zn          = 6.89599e-32    
+
+
+*******************************************************************************
+Sat Nov  2 04:38:38 2024
+
+
+FIT:    data read from 'data_Ga' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 1.0593933360e-57   0.00e+00  1.09e+01    1.000000e-30   1.000000e-30
+1013 2.5568153693e-60  -7.20e-02  1.09e+01    9.438564e-31   8.065308e-32
+
+After 1013 iterations the fit converged.
+final sum of squares of residuals : 2.55682e-60
+abs. change during last iteration : -1.84218e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Ga          = 9.43856e-31    
+q15_Ga          = 8.06531e-32    
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 1.8000000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   5 6.3345017457e-06  -2.33e-08  1.18e-04    2.967223e-03  -1.934349e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.3345e-06
+rel. change during last iteration : -2.32535e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0014531
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1115e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = 0.00296722       +/- 0.001136     (38.28%)
+q15_Ni          = -0.000193435     +/- 6.844e-05    (35.38%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ni(x)
+	Mz_model_Ni(x) = n14_Ni + q14_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ni' is zero.
+Warning: Initial value of parameter 'q14_Ni' is zero.
+iter      chisq       delta/lim  lambda   n14_Ni        q14_Ni       
+   0 2.6900000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 3.6655375685e-05  -7.98e-01  1.18e-03    3.496862e-03   5.655022e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.66554e-05
+rel. change during last iteration : -7.98343e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00349549
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.22185e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ni          = 0.00349686       +/- 0.002732     (78.14%)
+q14_Ni          = 0.000565502      +/- 0.0001646    (29.11%)
+
+correlation matrix of the fit parameters:
+                n14_Ni q14_Ni 
+n14_Ni          1.000 
+q14_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.7400000000e-04   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 3.7707534462e-05  -6.09e-09  1.02e-04    8.210044e-03   1.203818e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.77075e-05
+rel. change during last iteration : -6.09203e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0035453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25692e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00821004       +/- 0.002724     (33.18%)
+q15_Cu          = 0.000120382      +/- 0.0001891    (157.1%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Cu(x)
+	Mz_model_Cu(x) = n14_Cu + q14_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Cu' is zero.
+Warning: Initial value of parameter 'q14_Cu' is zero.
+iter      chisq       delta/lim  lambda   n14_Cu        q14_Cu       
+   0 1.4010000000e-03   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 5.2893339558e-06  -1.40e-08  1.02e-04    4.719333e-03  -8.777065e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.28933e-06
+rel. change during last iteration : -1.40122e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00132782
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.76311e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Cu          = 0.00471933       +/- 0.00102      (21.62%)
+q14_Cu          = -0.000877706     +/- 7.083e-05    (8.07%)
+
+correlation matrix of the fit parameters:
+                n14_Cu q14_Cu 
+n14_Cu          1.000 
+q14_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.2490000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 4.0269186280e-07  -2.45e-05  1.28e-04    1.620131e-02   2.719159e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.02692e-07
+rel. change during last iteration : -2.44515e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000366375
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.34231e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Zn          = 0.0162013        +/- 0.0002851    (1.759%)
+q15_Zn          = 2.71916e-05      +/- 1.581e-05    (58.12%)
+
+correlation matrix of the fit parameters:
+                n15_Zn q15_Zn 
+n15_Zn          1.000 
+q15_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Zn(x)
+	Mz_model_Zn(x) = n14_Zn + q14_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Zn' is zero.
+Warning: Initial value of parameter 'q14_Zn' is zero.
+iter      chisq       delta/lim  lambda   n14_Zn        q14_Zn       
+   0 1.3460000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 3.0423615822e-07  -3.08e-05  1.28e-04    1.579742e-02  -4.082890e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.04236e-07
+rel. change during last iteration : -3.07593e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000318453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.01412e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Zn          = 0.0157974        +/- 0.0002478    (1.568%)
+q14_Zn          = -4.08289e-05     +/- 1.374e-05    (33.65%)
+
+correlation matrix of the fit parameters:
+                n14_Zn q14_Zn 
+n14_Zn          1.000 
+q14_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 2.1300000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 5.4195253769e-06  -3.98e-07  1.10e-04    1.614981e-02  -3.349603e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.41953e-06
+rel. change during last iteration : -3.97937e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00134406
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80651e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ga          = 0.0161498        +/- 0.001052     (6.514%)
+q15_Ga          = -0.00033496      +/- 6.804e-05    (20.31%)
+
+correlation matrix of the fit parameters:
+                n15_Ga q15_Ga 
+n15_Ga          1.000 
+q15_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:40:14 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ga(x)
+	Mz_model_Ga(x) = n14_Ga + q14_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ga' is zero.
+Warning: Initial value of parameter 'q14_Ga' is zero.
+iter      chisq       delta/lim  lambda   n14_Ga        q14_Ga       
+   0 2.2590000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 1.3345131104e-06  -1.65e-06  1.10e-04    1.633844e-02  -3.673806e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.33451e-06
+rel. change during last iteration : -1.65362e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000666962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.44838e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ga          = 0.0163384        +/- 0.000522     (3.195%)
+q14_Ga          = -0.000367381     +/- 3.376e-05    (9.19%)
+
+correlation matrix of the fit parameters:
+                n14_Ga q14_Ga 
+n14_Ga          1.000 
+q14_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:08 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 1.8000000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   5 6.3345017457e-06  -2.33e-08  1.18e-04    2.967223e-03  -1.934349e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.3345e-06
+rel. change during last iteration : -2.32535e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0014531
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1115e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = 0.00296722       +/- 0.001136     (38.28%)
+q15_Ni          = -0.000193435     +/- 6.844e-05    (35.38%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:08 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ni(x)
+	Mz_model_Ni(x) = n14_Ni + q14_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ni' is zero.
+Warning: Initial value of parameter 'q14_Ni' is zero.
+iter      chisq       delta/lim  lambda   n14_Ni        q14_Ni       
+   0 2.6900000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 3.6655375685e-05  -7.98e-01  1.18e-03    3.496862e-03   5.655022e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.66554e-05
+rel. change during last iteration : -7.98343e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00349549
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.22185e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ni          = 0.00349686       +/- 0.002732     (78.14%)
+q14_Ni          = 0.000565502      +/- 0.0001646    (29.11%)
+
+correlation matrix of the fit parameters:
+                n14_Ni q14_Ni 
+n14_Ni          1.000 
+q14_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:08 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.7400000000e-04   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 3.7707534462e-05  -6.09e-09  1.02e-04    8.210044e-03   1.203818e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.77075e-05
+rel. change during last iteration : -6.09203e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0035453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25692e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00821004       +/- 0.002724     (33.18%)
+q15_Cu          = 0.000120382      +/- 0.0001891    (157.1%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:09 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Cu(x)
+	Mz_model_Cu(x) = n14_Cu + q14_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Cu' is zero.
+Warning: Initial value of parameter 'q14_Cu' is zero.
+iter      chisq       delta/lim  lambda   n14_Cu        q14_Cu       
+   0 1.4010000000e-03   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 5.2893339558e-06  -1.40e-08  1.02e-04    4.719333e-03  -8.777065e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.28933e-06
+rel. change during last iteration : -1.40122e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00132782
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.76311e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Cu          = 0.00471933       +/- 0.00102      (21.62%)
+q14_Cu          = -0.000877706     +/- 7.083e-05    (8.07%)
+
+correlation matrix of the fit parameters:
+                n14_Cu q14_Cu 
+n14_Cu          1.000 
+q14_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:09 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.2490000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 4.0269186280e-07  -2.45e-05  1.28e-04    1.620131e-02   2.719159e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.02692e-07
+rel. change during last iteration : -2.44515e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000366375
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.34231e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Zn          = 0.0162013        +/- 0.0002851    (1.759%)
+q15_Zn          = 2.71916e-05      +/- 1.581e-05    (58.12%)
+
+correlation matrix of the fit parameters:
+                n15_Zn q15_Zn 
+n15_Zn          1.000 
+q15_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:09 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Zn(x)
+	Mz_model_Zn(x) = n14_Zn + q14_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Zn' is zero.
+Warning: Initial value of parameter 'q14_Zn' is zero.
+iter      chisq       delta/lim  lambda   n14_Zn        q14_Zn       
+   0 1.3460000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 3.0423615822e-07  -3.08e-05  1.28e-04    1.579742e-02  -4.082890e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.04236e-07
+rel. change during last iteration : -3.07593e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000318453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.01412e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Zn          = 0.0157974        +/- 0.0002478    (1.568%)
+q14_Zn          = -4.08289e-05     +/- 1.374e-05    (33.65%)
+
+correlation matrix of the fit parameters:
+                n14_Zn q14_Zn 
+n14_Zn          1.000 
+q14_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:09 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 2.1300000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 5.4195253769e-06  -3.98e-07  1.10e-04    1.614981e-02  -3.349603e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.41953e-06
+rel. change during last iteration : -3.97937e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00134406
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80651e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ga          = 0.0161498        +/- 0.001052     (6.514%)
+q15_Ga          = -0.00033496      +/- 6.804e-05    (20.31%)
+
+correlation matrix of the fit parameters:
+                n15_Ga q15_Ga 
+n15_Ga          1.000 
+q15_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:09 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ga(x)
+	Mz_model_Ga(x) = n14_Ga + q14_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ga' is zero.
+Warning: Initial value of parameter 'q14_Ga' is zero.
+iter      chisq       delta/lim  lambda   n14_Ga        q14_Ga       
+   0 2.2590000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 1.3345131104e-06  -1.65e-06  1.10e-04    1.633844e-02  -3.673806e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.33451e-06
+rel. change during last iteration : -1.65362e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000666962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.44838e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ga          = 0.0163384        +/- 0.000522     (3.195%)
+q14_Ga          = -0.000367381     +/- 3.376e-05    (9.19%)
+
+correlation matrix of the fit parameters:
+                n14_Ga q14_Ga 
+n14_Ga          1.000 
+q14_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 1.8000000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   5 6.3345017457e-06  -2.33e-08  1.18e-04    2.967223e-03  -1.934349e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.3345e-06
+rel. change during last iteration : -2.32535e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0014531
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.1115e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = 0.00296722       +/- 0.001136     (38.28%)
+q15_Ni          = -0.000193435     +/- 6.844e-05    (35.38%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Ni_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ni(x)
+	Mz_model_Ni(x) = n14_Ni + q14_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ni' is zero.
+Warning: Initial value of parameter 'q14_Ni' is zero.
+iter      chisq       delta/lim  lambda   n14_Ni        q14_Ni       
+   0 2.6900000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 3.6655375685e-05  -7.98e-01  1.18e-03    3.496862e-03   5.655022e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.66554e-05
+rel. change during last iteration : -7.98343e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00349549
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.22185e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ni          = 0.00349686       +/- 0.002732     (78.14%)
+q14_Ni          = 0.000565502      +/- 0.0001646    (29.11%)
+
+correlation matrix of the fit parameters:
+                n14_Ni q14_Ni 
+n14_Ni          1.000 
+q14_Ni          0.820  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.7400000000e-04   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 3.7707534462e-05  -6.09e-09  1.02e-04    8.210044e-03   1.203818e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.77075e-05
+rel. change during last iteration : -6.09203e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0035453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25692e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00821004       +/- 0.002724     (33.18%)
+q15_Cu          = 0.000120382      +/- 0.0001891    (157.1%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Cu_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Cu(x)
+	Mz_model_Cu(x) = n14_Cu + q14_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Cu' is zero.
+Warning: Initial value of parameter 'q14_Cu' is zero.
+iter      chisq       delta/lim  lambda   n14_Cu        q14_Cu       
+   0 1.4010000000e-03   0.00e+00  1.02e+01    1.000000e-30   1.000000e-30
+   5 5.2893339558e-06  -1.40e-08  1.02e-04    4.719333e-03  -8.777065e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.28933e-06
+rel. change during last iteration : -1.40122e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00132782
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.76311e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Cu          = 0.00471933       +/- 0.00102      (21.62%)
+q14_Cu          = -0.000877706     +/- 7.083e-05    (8.07%)
+
+correlation matrix of the fit parameters:
+                n14_Cu q14_Cu 
+n14_Cu          1.000 
+q14_Cu          0.813  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.2490000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 4.0269186280e-07  -2.45e-05  1.28e-04    1.620131e-02   2.719159e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.02692e-07
+rel. change during last iteration : -2.44515e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000366375
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.34231e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Zn          = 0.0162013        +/- 0.0002851    (1.759%)
+q15_Zn          = 2.71916e-05      +/- 1.581e-05    (58.12%)
+
+correlation matrix of the fit parameters:
+                n15_Zn q15_Zn 
+n15_Zn          1.000 
+q15_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Zn_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Zn(x)
+	Mz_model_Zn(x) = n14_Zn + q14_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Zn' is zero.
+Warning: Initial value of parameter 'q14_Zn' is zero.
+iter      chisq       delta/lim  lambda   n14_Zn        q14_Zn       
+   0 1.3460000000e-03   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+   5 3.0423615822e-07  -3.08e-05  1.28e-04    1.579742e-02  -4.082890e-05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.04236e-07
+rel. change during last iteration : -3.07593e-10
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000318453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.01412e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Zn          = 0.0157974        +/- 0.0002478    (1.568%)
+q14_Zn          = -4.08289e-05     +/- 1.374e-05    (33.65%)
+
+correlation matrix of the fit parameters:
+                n14_Zn q14_Zn 
+n14_Zn          1.000 
+q14_Zn          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 2.1300000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 5.4195253769e-06  -3.98e-07  1.10e-04    1.614981e-02  -3.349603e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.41953e-06
+rel. change during last iteration : -3.97937e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00134406
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80651e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ga          = 0.0161498        +/- 0.001052     (6.514%)
+q15_Ga          = -0.00033496      +/- 6.804e-05    (20.31%)
+
+correlation matrix of the fit parameters:
+                n15_Ga q15_Ga 
+n15_Ga          1.000 
+q15_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:48:47 2024
+
+
+FIT:    data read from 'data_Ga_T1g' using 4:($3*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mz_model_Ga(x)
+	Mz_model_Ga(x) = n14_Ga + q14_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n14_Ga' is zero.
+Warning: Initial value of parameter 'q14_Ga' is zero.
+iter      chisq       delta/lim  lambda   n14_Ga        q14_Ga       
+   0 2.2590000000e-03   0.00e+00  1.10e+01    1.000000e-30   1.000000e-30
+   5 1.3345131104e-06  -1.65e-06  1.10e-04    1.633844e-02  -3.673806e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.33451e-06
+rel. change during last iteration : -1.65362e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000666962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.44838e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n14_Ga          = 0.0163384        +/- 0.000522     (3.195%)
+q14_Ga          = -0.000367381     +/- 3.376e-05    (9.19%)
+
+correlation matrix of the fit parameters:
+                n14_Ga q14_Ga 
+n14_Ga          1.000 
+q14_Ga          0.821  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:58:22 2024
+
+
+FIT:    data read from 'data_Ni' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 2.1800000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 1.3053733780e-05  -2.80e-01  1.18e-03   -1.231477e-03  -4.436203e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.30537e-05
+rel. change during last iteration : -2.80047e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00208596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.35124e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = -0.00123148      +/- 0.001623     (131.8%)
+q15_Ni          = -0.00044362      +/- 9.768e-05    (22.02%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:58:22 2024
+
+
+FIT:    data read from 'data_Cu' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.6925000000e-04   0.00e+00  1.03e+01    1.000000e-30   1.000000e-30
+   4 1.2754893980e-05  -3.10e-01  1.03e-03    1.982821e-03   5.975679e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.27549e-05
+rel. change during last iteration : -3.09718e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00206195
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.25163e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00198282       +/- 0.001593     (80.33%)
+q15_Cu          = 0.000597568      +/- 0.0001096    (18.34%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.815  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 05:58:22 2024
+
+
+FIT:    data read from 'data_Zn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.4845706634e-57   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+1148 2.5942220965e-60  -2.00e-01  1.28e+01    9.315612e-31   6.895989e-32
+
+After 1148 iterations the fit converged.
+final sum of squares of residuals : 2.59422e-60
+abs. change during last iteration : -5.19072e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Zn          = 9.31561e-31    
+q15_Zn          = 6.89599e-32    
+
+
+*******************************************************************************
+Sat Nov  2 05:58:22 2024
+
+
+FIT:    data read from 'data_Ga' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 1.0593933360e-57   0.00e+00  1.09e+01    1.000000e-30   1.000000e-30
+1013 2.5568153693e-60  -7.20e-02  1.09e+01    9.438564e-31   8.065308e-32
+
+After 1013 iterations the fit converged.
+final sum of squares of residuals : 2.55682e-60
+abs. change during last iteration : -1.84218e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Ga          = 9.43856e-31    
+q15_Ga          = 8.06531e-32    
+
+
+*******************************************************************************
+Sat Nov  2 06:00:18 2024
+
+
+FIT:    data read from 'data_Ni' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ni(x)
+	Mx_model_Ni(x) = n15_Ni + q15_Ni * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ni' is zero.
+Warning: Initial value of parameter 'q15_Ni' is zero.
+iter      chisq       delta/lim  lambda   n15_Ni        q15_Ni       
+   0 2.1800000000e-04   0.00e+00  1.18e+01    1.000000e-30   1.000000e-30
+   4 1.3053733780e-05  -2.80e-01  1.18e-03   -1.231477e-03  -4.436203e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.30537e-05
+rel. change during last iteration : -2.80047e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00208596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.35124e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Ni          = -0.00123148      +/- 0.001623     (131.8%)
+q15_Ni          = -0.00044362      +/- 9.768e-05    (22.02%)
+
+correlation matrix of the fit parameters:
+                n15_Ni q15_Ni 
+n15_Ni          1.000 
+q15_Ni          0.818  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 06:00:18 2024
+
+
+FIT:    data read from 'data_Cu' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Cu(x)
+	Mx_model_Cu(x) = n15_Cu + q15_Cu * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Cu' is zero.
+Warning: Initial value of parameter 'q15_Cu' is zero.
+iter      chisq       delta/lim  lambda   n15_Cu        q15_Cu       
+   0 2.6925000000e-04   0.00e+00  1.03e+01    1.000000e-30   1.000000e-30
+   4 1.2754893980e-05  -3.10e-01  1.03e-03    1.982821e-03   5.975679e-04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.27549e-05
+rel. change during last iteration : -3.09718e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00206195
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.25163e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n15_Cu          = 0.00198282       +/- 0.001593     (80.33%)
+q15_Cu          = 0.000597568      +/- 0.0001096    (18.34%)
+
+correlation matrix of the fit parameters:
+                n15_Cu q15_Cu 
+n15_Cu          1.000 
+q15_Cu          0.815  1.000 
+
+
+*******************************************************************************
+Sat Nov  2 06:00:18 2024
+
+
+FIT:    data read from 'data_Zn' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Zn(x)
+	Mx_model_Zn(x) = n15_Zn + q15_Zn * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Zn' is zero.
+Warning: Initial value of parameter 'q15_Zn' is zero.
+iter      chisq       delta/lim  lambda   n15_Zn        q15_Zn       
+   0 1.4845706634e-57   0.00e+00  1.28e+01    1.000000e-30   1.000000e-30
+1148 2.5942220965e-60  -2.00e-01  1.28e+01    9.315612e-31   6.895989e-32
+
+After 1148 iterations the fit converged.
+final sum of squares of residuals : 2.59422e-60
+abs. change during last iteration : -5.19072e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Zn          = 9.31561e-31    
+q15_Zn          = 6.89599e-32    
+
+
+*******************************************************************************
+Sat Nov  2 06:00:18 2024
+
+
+FIT:    data read from 'data_Ga' using 4:($1*-1)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Mx_model_Ga(x)
+	Mx_model_Ga(x) = n15_Ga + q15_Ga * x
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'n15_Ga' is zero.
+Warning: Initial value of parameter 'q15_Ga' is zero.
+iter      chisq       delta/lim  lambda   n15_Ga        q15_Ga       
+   0 1.0593933360e-57   0.00e+00  1.09e+01    1.000000e-30   1.000000e-30
+1013 2.5568153693e-60  -7.20e-02  1.09e+01    9.438564e-31   8.065308e-32
+
+After 1013 iterations the fit converged.
+final sum of squares of residuals : 2.55682e-60
+abs. change during last iteration : -1.84218e-66
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+n15_Ga          = 9.43856e-31    
+q15_Ga          = 8.06531e-32    
